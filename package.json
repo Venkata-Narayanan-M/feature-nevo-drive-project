@@ -1,0 +1,26 @@
+{
+  "name": "nevo-test-drive-service-backend",
+  "version": "1.0.0",
+  "description": "Backend service for Nevo Test Drive scheduling using Express and JSON file persistence.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "mern",
+    "express",
+    "scheduling",
+    "take-home"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}

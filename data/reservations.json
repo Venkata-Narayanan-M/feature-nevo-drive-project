@@ -1,0 +1,13 @@
+{
+  "reservations": [
+    {
+      "vehicleId": "tesla_1001",
+      "startDateTime": "2025-11-26T10:00:00.000Z",
+      "endDateTime": "2025-11-26T11:00:00.000Z",
+      "customerName": "venka",
+      "customerEmail": "venakt1@venkat.in",
+      "customerPhone": "1222312312",
+      "id": 18726
+    }
+  ]
+}
