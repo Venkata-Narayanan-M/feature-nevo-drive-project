@@ -23,7 +23,7 @@ Important: Before starting, ensure all vehicles in vehicles.json have the proper
 
 3.1. Start the Backend API
 
-This command starts the Express server on port 3000 (or as configured in server.js).
+This command starts the Express server on port 3001 (or as configured in server.js).
 
 npm start
 
@@ -41,11 +41,8 @@ If you are using a development server (like webpack-dev-server or Vite) for the 
 
 // Example: Proxy setting in frontend config
 proxy: {
-  '/api': {
-    target: 'http://<YOUR_BACKEND_IP_ADDRESS>:3000', 
-    // Usually 'http://localhost:3000' or similar
-  }
-}
+        '/api': 'http://192.168.0.5:3001', // TODO - Update with acutal IP here
+    },
 
 
 4. Running Unit Tests
